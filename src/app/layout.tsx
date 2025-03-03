@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+// import { Amplify } from 'aws-amplify'
+// import '@aws-amplify/ui-react/styles.css' // Amplify UIスタイル
+// import outputs from '../amplify_outputs.json' // amplify_outputs.jsonファイルのパス
+// import { ReactNode } from 'react'
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],

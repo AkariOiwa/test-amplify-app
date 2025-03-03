@@ -1,0 +1,19 @@
+{
+  "version": "39.0.0",
+  "files": {
+    "e85b990ff21f3e29ef47549cb07e3d967bc7b6f53a259263be408152bae36416": {
+      "source": {
+        "path": "amplify-mytestapp-ao371-sandbox-3759cdcb15.template.json",
+        "packaging": "file"
+      },
+      "destinations": {
+        "current_account-current_region": {
+          "bucketName": "cdk-hnb659fds-assets-${AWS::AccountId}-${AWS::Region}",
+          "objectKey": "e85b990ff21f3e29ef47549cb07e3d967bc7b6f53a259263be408152bae36416.json",
+          "assumeRoleArn": "arn:${AWS::Partition}:iam::${AWS::AccountId}:role/cdk-hnb659fds-file-publishing-role-${AWS::AccountId}-${AWS::Region}"
+        }
+      }
+    }
+  },
+  "dockerImages": {}
+}
